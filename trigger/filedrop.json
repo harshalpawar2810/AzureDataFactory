@@ -1,0 +1,24 @@
+{
+	"name": "filedrop",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/adfdemo/blobs/Input/data",
+			"ignoreEmptyBlobs": false,
+			"scope": "/subscriptions/3f3116a5-68e5-42c9-a744-55a0701c6816/resourceGroups/TestEnvironment/providers/Microsoft.Storage/storageAccounts/testenvironment123",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
