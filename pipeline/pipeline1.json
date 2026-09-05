@@ -48,6 +48,14 @@
 				]
 			}
 		],
+		"parameters": {
+			"Sourcepath": {
+				"type": "string"
+			},
+			"SourceFile": {
+				"type": "string"
+			}
+		},
 		"annotations": []
 	}
 }
