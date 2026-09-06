@@ -1,0 +1,17 @@
+{
+	"name": "pipeline5",
+	"properties": {
+		"parameters": {
+			"FileName": {
+				"type": "string",
+				"defaultValue": "DailySales.csv"
+			}
+		},
+		"variables": {
+			"FileType": {
+				"type": "String"
+			}
+		},
+		"annotations": []
+	}
+}
